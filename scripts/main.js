@@ -8,9 +8,9 @@ let valoresArray =  [
         data: "1994-09-05T00:00:00.000"
     }, {
         identificador: 2, 
-        nome: "Antonio", 
-        email: "antonio@gmail.com", 
-        data: "1994-09-03T00:00:00.000"
+        nome: "Malaquito", 
+        email: "malaquito@gmail.com", 
+        data: "1995-01-19T00:00:00.000"
     }, {
         identificador: 3, 
         nome: "Lucas", 
