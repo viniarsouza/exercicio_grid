@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Table</title>
+        <meta charset="utf-8">
+        <link href="estyles/styles.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <table id="tabela">
+            <caption>Users</caption>
+
+            <thead id="thead">
+                <th id="thIdentificador" onclick="valoresSort('identificador')"></th>
+                <th id="thNome" onclick="valoresSort('nome')"></th>
+                <th id="thEmail" onclick="valoresSort('email')"></th>
+                <th id="thData" onclick="valoresSort('data')"></th>
+            </thead>
+
+            <tbody id="tbody">
+                
+            </tbody>
+
+            <tfoot id="tfoot">
+                
+            </tfoot>
+        </table>
+
+        <script src="scripts/main.js"></script>
+    </body>
+
+</html>

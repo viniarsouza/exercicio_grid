@@ -1,0 +1,38 @@
+html{
+    font-family: sans-serif;
+    background-color: rgba(157, 195, 219, 0.973);
+}
+
+table{
+    margin: auto;
+    background-color: rgb(52, 152, 255);
+    border: 3px solid black;
+}
+
+th{
+    padding: 10px;
+    cursor: pointer;
+}
+tbody tr:hover{
+    background-color: rgba(32, 60, 134, 0.438);
+}
+tr, td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tfoot{
+    text-align: center;
+    border: 2px solid black;
+}
+
+caption{
+    border: 3px solid black;
+    background-color: rgb(21, 79, 190);
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
